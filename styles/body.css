@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.body{
+  background-color: #FFFFFF;
+  font-family: 'Sen', sans-serif;
+}
