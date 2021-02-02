@@ -1,0 +1,40 @@
+.header {
+  margin-top: 0px;
+  padding-top: 70px;
+  padding-bottom: 300px;
+  z-index: 5;
+  background-image: url(../images/BG.svg);
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3, auto);
+}
+
+.header__headerTitle {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  margin: 206px 107px 0px 142px;
+}
+
+.header__video {
+  margin: 126px 62px 0px 23px;
+}
+
+.header__socialsContainer {
+  margin-top: 85px;
+  margin-right: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.header__socialIcon {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  max-width: 40px;
+  max-height: 40px;
+}
