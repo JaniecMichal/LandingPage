@@ -16,6 +16,8 @@
   <link href="styles/body.css" rel="stylesheet" />
   <link href="styles/mainContainer.css" rel="stylesheet" />
   <link href="styles/navigationBar.css" rel="stylesheet" />
+  <link href="styles/header.css" rel="stylesheet" />
+  <link href="styles/subscription.css" rel="stylesheet" />
 
 
 </head>
@@ -31,6 +33,27 @@
         <li class="navigationList__listItem navigationList__listItem--last">Contact</li>
       </ul>
     </nav>
+    <header class="header">
+      <h1 class="header__headerTitle">
+        The first fully-automatic social crypto trading platform with real crypto currency
+      </h1>
+      <img src="images/Video.png" alt="video" class="header__video" />
+      <form class="subscription">
+        <label class="subscription__label" for="email">Subscribe and get the lastes information</label>
+        <div class="subscription__wrapper">
+          <input class="subscription__input" type="email" id="email" placeholder="Enter your email" />
+          <button type="submit" class="subscription__submitButton">Subscribe</button>
+        </div>
+      </form>
+
+      <div class="header__socialsContainer">
+        <p class="header__socialIcon"><img src="images/Facebook@1x.svg" alt="facebookIcon" /></p>
+        <p class="header__socialIcon"><img src="images/Twitter@1x.svg" alt="twitterIcon" /></p>
+      </div>
+
+      <img src="images/downArrow.svg" alt="downArrow" class="sliderArrow" />
+
+    </header>
   </main>
 
 </body>
