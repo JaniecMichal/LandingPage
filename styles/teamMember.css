@@ -1,0 +1,50 @@
+.teamMember {
+  max-width: 270px;
+  text-align: center;
+  margin-right: 56px
+}
+
+.teamMember--last {
+  margin-right: 0px
+}
+
+.teamMember__photoContainer {
+  margin-bottom: 16px;
+}
+
+.teamMember__name {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #38A5DB;
+}
+
+.teamMember__role {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #011226;
+  opacity: 0.5;
+}
+
+.teamMember__description {
+  font-size: 18px;
+  line-height: 24px;
+  color: #45515F;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.teamMember__socialsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.teamMember__icon {
+  padding: 5px 19px 5px 17px;
+  margin-right: 6px;
+  border-radius: 3px;
+  border: 1px solid rgba(127, 139, 152, 0.5);
+}
