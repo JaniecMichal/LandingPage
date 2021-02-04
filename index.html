@@ -20,6 +20,7 @@
   <link href="styles/form.css" rel="stylesheet" />
   <link href="styles/section.css" rel="stylesheet" />
   <link href="styles/teamMember.css" rel="stylesheet" />
+  <link href="styles/personDetails.css" rel="stylesheet" />
   <link href="styles/footer.css" rel="stylesheet" />
 
 
@@ -38,27 +39,76 @@
       </ul>
     </nav>
 
+    <section class="personDetails">
+      <div class="personDetails__buttonWrapper">
+        <button class="personDetails__closeButton">
+          <img src="images/xCircle.svg" alt="closeIcon" />
+        </button>
+      </div>
+      <header class="personDetails__name">
+        Edgar Morrison
+      </header>
+      <p class="personDetails__role">CEO</p>
+      <p class="personDetails__description">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+        velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit
+        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+        nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco
+        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+        sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+        consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+        deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim
+        mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+        Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+        amet sint. Velit officia consequat duis enim
+        velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit
+        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+        nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco
+        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+        sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+        consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+        deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim
+        mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+        Exercitation veniam consequat sunt nostrud amet.
+      </p>
+    </section>
+
     <header class="header">
-      <h1 class="header__headerTitle">
-        The first fully-automatic social crypto trading platform with real crypto currency
-      </h1>
-      <img src="images/Video.png" alt="video" class="header__video" />
-      <form class="form">
-        <label class="form__label" for="email">Subscribe and get the lastes information</label>
-        <div class="form__wrapper">
-          <input class="form__input" type="email" id="email" placeholder="Enter your email" />
-          <button type="submit" class="form__submitButton">Subscribe</button>
+      <div class="header__flexRow">
+        <h1 class="header__headerTitle">
+          The first fully-automatic social crypto trading platform with real crypto currency
+        </h1>
+        <div class="header__videoWrapper">
+          <img src="images/Video.png" alt="video" />
         </div>
-      </form>
+      </div>
+      <div class="header__flexRow">
+        <form class="form">
+          <label class="form__label" for="email">Subscribe and get the lastes information</label>
+          <div class="form__wrapper">
+            <input class="form__input" type="email" id="email" placeholder="Enter your email" />
+            <button type="submit" class="form__submitButton">Subscribe</button>
+          </div>
+        </form>
 
-      <div class="header__socialsContainer">
-        <p class="header__socialIcon"><img src="images/Facebook@1x.svg" alt="facebookIcon" /></p>
-        <p class="header__socialIcon"><img src="images/Twitter@1x.svg" alt="twitterIcon" /></p>
+        <div class="header__socialsContainer">
+          <p class="header__socialIcon"><img src="images/Facebook@1x.svg" alt="facebookIcon" /></p>
+          <p class="header__socialIcon"><img src="images/Twitter@1x.svg" alt="twitterIcon" /></p>
+        </div>
       </div>
 
-      <div class="header__sliderWrapper">
-        <img src="images/downArrow.svg" alt="downArrow" />
+      <div class="header__flexRow header__flexRow--center">
+        <div class="header__sliderWrapper">
+          <img src="images/downArrow.svg" alt="downArrow" />
+        </div>
       </div>
+
     </header>
     <section class="section">
       <header class="section__header">Team</header>
