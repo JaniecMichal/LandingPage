@@ -1,8 +1,5 @@
 .mainContainer {
   max-width: 1440px;
   margin: 0 auto;
-  background-image: url(../images/BG.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top;
+  position: relative;
 }
