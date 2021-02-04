@@ -1,0 +1,53 @@
+.personDetails {
+  max-width: 630px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 72px 29px 50px 31px;
+  position: absolute;
+  top: calc((50% / 2) + 168px);
+  left: calc((50% / 2) + 44px);
+  z-index: 100;
+  display: none;
+}
+
+.personDetails__name {
+  font-size: 40px;
+  line-height: 34px;
+  text-align: center;
+  color: #38A5DB;
+  margin-bottom: 24px;
+}
+
+.personDetails__role {
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.26px;
+  color: #011226;
+  opacity: 0.5;
+}
+
+.personDetails__description {
+  font-size: 18px;
+  max-height: 514px;
+  line-height: 24px;
+  color: #45515F;
+  margin: 0px auto;
+  overflow-y: auto;
+}
+
+.personDetails__buttonWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.personDetails__closeButton {
+  background-color: transparent;
+  border: none;
+  padding: 2px 2px;
+}
