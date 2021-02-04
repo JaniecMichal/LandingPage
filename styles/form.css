@@ -1,5 +1,6 @@
 .form {
   margin-left: 142px;
+  flex-basis: 50%;
 }
 
 .form__label {
@@ -44,6 +45,7 @@
 }
 
 .form--contactForm {
+  display: block;
   margin-left: 0px;
   margin-bottom: 55px;
   padding: 84px 41px 2px 41px;
