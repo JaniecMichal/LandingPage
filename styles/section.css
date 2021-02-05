@@ -58,4 +58,13 @@
     background-color: #252B42;
     overflow-x: hidden;
   }
+  @media(max-width: 320px) {
+    .section--dark {
+      padding-left: 15.5px;
+      padding-right: 15.5px;
+    }
+    .section__description {
+      font-size: 14px;
+    }
+  }
 }

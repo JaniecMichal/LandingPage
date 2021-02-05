@@ -5,6 +5,7 @@
   z-index: 5;
   background-image: url(../images/BG.svg);
   background-repeat: no-repeat;
+  background-position: top;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -60,7 +61,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-position: center;
   }
   .header__headerTitle {
     max-width: 74%;
@@ -81,5 +81,28 @@
   }
   .header__sliderWrapper {
     order: 2;
+  }
+  @media(max-width: 320px) {
+    .header {
+      padding-bottom: 60px;
+    }
+    .header__headerTitle {
+      max-width: 89%;
+      font-size: 24px;
+      line-height: 32px;
+      margin-top: 48px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0px;
+    }
+    .header__socialIcon {
+      margin-top: 0px;
+      margin-bottom: 12px;
+      max-width: 30px;
+      max-height: 30px;
+    }
+    .header__videoWrapper {
+      margin-top: 34px;
+    }
   }
 }

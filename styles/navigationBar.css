@@ -50,4 +50,19 @@
   .navigationBar__logo {
     margin-left: 16px;
   }
+  @media(max-width: 320px) {
+    .navigationBar {
+      justify-content: flex-start;
+    }
+    .navigationBar__logo {
+      height: 22px;
+    }
+    .navigationList {
+      margin-left: 41px;
+      margin-right: 24px;
+    }
+    .navigationList__listItem {
+      margin-right: 24px;
+    }
+  }
 }
