@@ -15,7 +15,7 @@
   margin-bottom: 45px;
 }
 
-.section_content {
+.section__content {
   display: flex;
   margin-bottom: 88px;
 }
@@ -39,4 +39,23 @@
   color: #FFFFFF;
   text-align: center;
   margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+@media(max-width: 768px) {
+  .section {
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: auto;
+    padding: 0px 15px;
+  }
+  .section__header {
+    align-self: center;
+  }
+  .section--dark {
+    align-items: center;
+    padding-top: 28px;
+    background-color: #252B42;
+    overflow-x: hidden;
+  }
 }

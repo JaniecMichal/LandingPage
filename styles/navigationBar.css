@@ -1,5 +1,5 @@
 .navigationBar {
-  width: 100%;
+  max-width: 100%;
   position: fixed;
   left: 0%;
   right: 0%;
@@ -7,7 +7,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 137px 15px 136px;
+  padding-top: 16px;
+  padding-right: calc((100% / 10) - 7px);
+  padding-bottom: 15px;
   z-index: 100;
   background-color: #ffffff;
 }
@@ -38,4 +40,14 @@
 
 .navigationBar__logo {
   height: 39px;
+  margin-left: 136px;
+}
+
+@media(max-width: 768px) {
+  .navigationBar {
+    padding-right: calc((100% / 20) - 23.4px);
+  }
+  .navigationBar__logo {
+    margin-left: 16px;
+  }
 }
