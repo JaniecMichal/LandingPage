@@ -2,4 +2,7 @@
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
+  background-image: url(../images/BG.svg);
+  background-repeat: no-repeat;
+  background-position: top;
 }
