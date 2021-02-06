@@ -1,11 +1,8 @@
 .header {
   max-width: 100%;
-  padding-top: 70px;
+  padding-top: 0px;
   padding-bottom: 170px;
   z-index: 5;
-  background-image: url(../images/BG.svg);
-  background-repeat: no-repeat;
-  background-position: top;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -24,7 +21,7 @@
 }
 
 .header__videoWrapper {
-  margin-top: 104px;
+  margin-top: 7.22%;
   padding: 22px 38px 22px 23px;
   max-width: 42%;
 }
