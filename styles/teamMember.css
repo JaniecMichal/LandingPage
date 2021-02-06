@@ -17,6 +17,7 @@
   line-height: 34px;
   text-align: center;
   color: #38A5DB;
+  white-space: nowrap;
 }
 
 .teamMember__role {
@@ -52,6 +53,9 @@
 @media(max-width: 768px) {
   .teamMember {
     margin-right: 25px;
+  }
+  .teamMember__name {
+    font-size: 16px;
   }
   @media(max-width: 320px) {
     .teamMember {
