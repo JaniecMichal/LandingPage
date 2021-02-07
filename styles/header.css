@@ -24,10 +24,19 @@
   margin-top: 7.22%;
   padding: 22px 38px 22px 23px;
   max-width: 42%;
+  position: relative;
 }
 
 .header__video {
   max-width: 100%;
+  z-index: 1;
+}
+
+.header__playButton {
+  position: absolute;
+  z-index: 30;
+  top: 35%;
+  left: 36%;
 }
 
 .header__socialsContainer {
