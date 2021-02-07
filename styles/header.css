@@ -25,18 +25,24 @@
   padding: 22px 38px 22px 23px;
   max-width: 42%;
   position: relative;
+  text-align: center;
 }
 
 .header__video {
   max-width: 100%;
   z-index: 1;
+  display: inline-block;
+  position: relative;
+  vertical-align: bottom;
 }
 
 .header__playButton {
   position: absolute;
   z-index: 30;
-  top: 35%;
-  left: 36%;
+  top: 47%;
+  left: 44%;
+  width: 63px;
+  height: 63px;
 }
 
 .header__socialsContainer {
@@ -109,6 +115,12 @@
     }
     .header__videoWrapper {
       margin-top: 34px;
+    }
+    .header__playButton {
+      width: 32px;
+      height: 32px;
+      top: 46%;
+      left: 41%;
     }
   }
 }
