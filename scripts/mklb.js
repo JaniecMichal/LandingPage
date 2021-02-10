@@ -43,7 +43,6 @@ function _mklbOpen(mklbItem) {
 
   document.body.appendChild(lightboxContainer);
   overlay.addEventListener("click", _closeLightbox);
-  console.log("Odpalona funkcja mklbOpen");
 }
 
 function _mklbAddVideo(item) {
@@ -54,11 +53,9 @@ function _mklbAddVideo(item) {
   source.src = item.dataset.videoSrc;
   source.type = "video/mp4";
   video.appendChild(source);
-  console.log("Odpalona funkcja mklbAddVideo");
   return video;
 }
 
 function _closeLightbox() {
   document.getElementById("mkLightboxContainer").remove();
-  console.log("Odpalona funkcja closeLigthbox");
 }
