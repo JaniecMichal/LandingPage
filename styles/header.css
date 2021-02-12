@@ -39,10 +39,8 @@
 .header__playButton {
   position: absolute;
   z-index: 30;
-  top: 47%;
-  left: 44%;
-  width: 63px;
-  height: 63px;
+  top: 39%;
+  left: 36%;
 }
 
 .header__socialsContainer {
@@ -94,6 +92,13 @@
   .header__sliderWrapper {
     order: 2;
   }
+  .header__playButton {
+    top: 47%;
+    left: 44%;
+    width: 63px;
+    height: 63px;
+  }
+
   @media(max-width: 320px) {
     .header {
       padding-bottom: 60px;
