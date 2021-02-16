@@ -4,11 +4,11 @@
   position: relative;
   background-image: url(../images/BG.svg);
   background-repeat: no-repeat;
+  background-position: top;
 }
 
 @media(max-width: 320px) {
   .mainContainer {
     background-position: 45% -19%;
   }
-
 }
