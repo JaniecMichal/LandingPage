@@ -84,32 +84,34 @@
 
     <header class="header">
 
-      <h1 class="header__headerTitle">
-        The first fully-automatic social crypto trading platform with real crypto currency
-      </h1>
-      <div class="header__videoWrapper">
+      <div class="header__flexColumn">
+        <h1 class="header__headerTitle">
+          The first fully-automatic social crypto trading platform with real crypto currency
+        </h1>
+        <form class="form">
+          <label class="form__label" for="email">Subscribe and get the lastes information</label>
+          <div class="form__wrapper">
+            <input class="form__input" type="email" id="email" placeholder="Enter your email" />
+            <button type="submit" class="form__submitButton">Subscribe</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="header__flexColumn header__flexColumn--video">
         <img src="images/playButton.svg" alt="playButton" data-video-src="movie.mp4"
           class="header__playButton mklbItem" />
         <img src="images/Video.png" alt="video" class="header__video mklbItem" />
-
       </div>
 
-
-      <form class="form">
-        <label class="form__label" for="email">Subscribe and get the lastes information</label>
-        <div class="form__wrapper">
-          <input class="form__input" type="email" id="email" placeholder="Enter your email" />
-          <button type="submit" class="form__submitButton">Subscribe</button>
+      <div class="header__flexColumn--span2">
+        <div class="header__socialsContainer">
+          <a hrf="" class="header__socialIcon"><img src="images/Facebook@1x.svg" alt="facebookIcon" /></a>
+          <a href="" class="header__socialIcon"><img src="images/Twitter@1x.svg" alt="twitterIcon" /></a>
         </div>
-      </form>
 
-      <div class="header__socialsContainer">
-        <p class="header__socialIcon"><img src="images/Facebook@1x.svg" alt="facebookIcon" /></p>
-        <p class="header__socialIcon"><img src="images/Twitter@1x.svg" alt="twitterIcon" /></p>
-      </div>
-
-      <div class="header__sliderWrapper">
-        <img src="images/downArrow.svg" alt="downArrow" />
+        <div class="header__sliderWrapper">
+          <img src="images/downArrow.svg" alt="downArrow" />
+        </div>
       </div>
 
     </header>
@@ -126,10 +128,12 @@
             lot of changes in the toner...
           </p>
           <div class="teamMember__socialsContainer">
-            <a href="" class="teamMember__icon" target="_blank" rel="noreferrer noopener">
+            <a href="" target="_blank" rel="noreferrer noopener" class="teamMember__icon" target="_blank"
+              rel="noreferrer noopener">
               <img src="images/facebookWhite.svg" alt="facebook" />
             </a>
-            <a href="" class="teamMember__icon" target="_blank" rel="noreferrer noopener">
+            <a href="" target="_blank" rel="noreferrer noopener" class="teamMember__icon" target="_blank"
+              rel="noreferrer noopener">
               <img src="images/linkedinWhite.svg" alt="linkedin" />
             </a>
           </div>
