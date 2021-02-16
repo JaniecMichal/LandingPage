@@ -77,9 +77,15 @@
   max-height: 40px;
 }
 
-.header__sliderWrapper {
+.header__sliderButton {
   text-align: center;
   margin-top: 124px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.header__sliderButton:hover {
+  cursor: pointer;
 }
 
 @media(max-width: 768px) {
@@ -95,20 +101,26 @@
   }
   .header__flexColumn--video {
     order: 5;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 162px;
   }
   .header__flexColumn--span2 {
     order: 3;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
   }
   .header__headerTitle {
     max-width: 569px;
     margin-top: 128px;
     margin-left: 74.8px;
   }
-  .header__videoWrapper {
-    order: 5;
-  }
   .header__socialsContainer {
     order: 3;
+  }
+  .header__sliderButton {
+    margin-top: 0px;
   }
   .header__playButton {
     top: 47%;
