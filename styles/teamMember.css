@@ -1,7 +1,7 @@
 .teamMember {
   max-width: 270px;
   text-align: center;
-  margin-right: 56px
+  margin-right: 29px
 }
 
 .teamMember--last {
@@ -10,6 +10,11 @@
 
 .teamMember__photoContainer {
   margin-bottom: 16px;
+}
+
+.teamMember__photoContainer img {
+  width: 136px;
+  height: 136px;
 }
 
 .teamMember__name {
@@ -31,11 +36,13 @@
 }
 
 .teamMember__description {
+  height: 96px;
   font-size: 18px;
   line-height: 24px;
   color: #45515F;
   margin-top: 0px;
   margin-bottom: 32px;
+  overflow-y: auto;
 }
 
 .teamMember__socialsContainer {
