@@ -109,24 +109,21 @@
     order: 3;
     margin-right: auto;
     margin-left: auto;
-    flex-direction: row;
   }
   .header__headerTitle {
     max-width: 569px;
     margin-top: 128px;
     margin-left: 74.8px;
   }
-  .header__socialsContainer {
-    order: 3;
-  }
-  .header__sliderButton {
-    margin-top: 0px;
-  }
   .header__playButton {
     top: 47%;
     left: 44%;
     width: 63px;
     height: 63px;
+  }
+  .header__socialsContainer {
+    bottom: 0px;
+    margin-right: 20px;
   }
   @media(max-width: 320px) {
     .header {
@@ -147,14 +144,23 @@
       max-width: 30px;
       max-height: 30px;
     }
-    .header__videoWrapper {
-      margin-top: 34px;
-    }
     .header__playButton {
       width: 32px;
       height: 32px;
       top: 46%;
       left: 41%;
+    }
+    .header__flexColumn--video {
+      margin-top: 73px;
+      padding: 0px;
+    }
+    .header__socialsContainer {
+      right: 30px;
+      margin-right: 0px;
+      z-index: 5;
+    }
+    .header__sliderButton {
+      margin-top: 0px;
     }
   }
 }
