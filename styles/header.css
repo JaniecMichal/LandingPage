@@ -59,7 +59,7 @@
 
 .header__socialsContainer {
   position: fixed;
-  bottom: 0px;
+  top: -25px;
   margin-top: 684px;
   right: 0px;
   margin-right: 96px;
